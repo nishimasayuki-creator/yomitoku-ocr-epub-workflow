@@ -8,3 +8,7 @@ torch
 Pillow
 yomitoku
 onnxruntime
+
+### GPUで使う場合（任意）
+- 先にCUDA対応のPyTorchを用意した上で、
+  `pip install -U "yomitoku[gpu]" onnxruntime-gpu`
